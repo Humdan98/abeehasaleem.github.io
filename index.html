@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abeeha Saleem - Food Technologist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-dark: #2F1B12;
+      --color-medium: #97704F;
+      --color-light: #DEAF84;
+      --font-heading: 'Pacifico', cursive;
+      --font-body: 'Open Sans', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: #fff;
+      color: var(--color-dark);
+    }
+
+    header {
+      background: var(--color-dark);
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header .logo {
+      font-family: var(--font-heading);
+      font-size: 1.8rem;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 2rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--color-light);
+    }
+
+    section {
+      padding: 4rem 2rem;
+    }
+
+    .banner {
+      background: url('https://via.placeholder.com/1600x800') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color: white;
+    }
+
+    .banner::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(47, 27, 18, 0.6);
+    }
+
+    .banner-content {
+      position: relative;
+      text-align: center;
+      z-index: 2;
+    }
+
+    .banner-content h1 {
+      font-family: var(--font-heading);
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .banner-content p {
+      font-size: 1.2rem;
+      color: var(--color-light);
+    }
+
+    .about-columns,
+    .experience-columns,
+    .achievements-columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .about-columns img,
+    .experience-columns img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 12px;
+    }
+
+    .col {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-family: var(--font-heading);
+      margin-bottom: 1rem;
+      color: var(--color-medium);
+    }
+
+    blockquote {
+      font-style: italic;
+      color: var(--color-medium);
+      margin-bottom: 1rem;
+    }
+
+    .three-cols {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .three-cols .col {
+      background: #f8f1ec;
+      padding: 1.5rem;
+      border-radius: 8px;
+      flex: 1;
+      min-width: 280px;
+    }
+
+    footer {
+      background: var(--color-dark);
+      color: white;
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+
+    .footer-logo {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+    }
+
+    .footer-menu a {
+      display: block;
+      color: white;
+      margin-bottom: 0.5rem;
+      text-decoration: none;
+    }
+
+    .footer-info {
+      font-size: 0.9rem;
+      max-width: 400px;
+    }
+
+    @media(max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 0.5rem;
+      }
+
+      .about-columns,
+      .experience-columns,
+      .three-cols {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Abeeha Saleem</div>
+    <nav>
+      <a href="#intro">Intro</a>
+      <a href="#about">About</a>
+      <a href="#interests">Interests</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Creations</a>
+      <a href="#achievements">Achievements</a>
+    </nav>
+  </header>
+
+  <section class="banner" id="intro">
+    <div class="banner-content">
+      <h1>Abeeha Saleem The Food Technologist</h1>
+      <p>Portfolio</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <blockquote>Belief: "I rely on this quote written by myself for myself, I Can And I will".</blockquote>
+    <div class="about-columns">
+      <div class="col"><img src="https://via.placeholder.com/400x500" alt="Abeeha Saleem"></div>
+      <div class="col">
+        <p>I'm a dedicated Food Safety Officer with a strong commitment to ensuring public health through the enforcement of food safety standards and regulations, with experience in food inspection and hazard analysis.</p>
+        <p>My role involves conducting site inspections, ensuring compliance with food safety standards. I take pride in protecting people's health, maintaining high standards, and supporting businesses by maintaining the highest hygiene and safety standards.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="interests">
+    <h2>My Interests</h2>
+    <p>My love for cooking and baking began in my childhood. I enjoy the balance of science and creativity in baking, the precision it requires, and the joy it brings when a cake rises perfectly or a loaf turns golden.</p>
+    <p>Over the years, I’ve explored everything from soft breads to rich layered cakes and fusion desserts. Currently, I bake regularly at home, take part in online baking communities, and try new recipes every week.</p>
+    <p>My dream is to one day open my own bakery — a warm, inviting space where I can share handmade goods, inspired by both tradition and innovation.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Working Experience</h2>
+    <div class="three-cols">
+      <div class="col">
+        <h3>PFA</h3>
+        <p>I learnt a lot in the PFA internship. I was in the operation department. I performed a milk raid, where I was assigned to check water content, SNF and fat content.</p>
+      </div>
+      <div class="col">
+        <h3>Aroma Bakery</h3>
+        <p>I worked as an intern at Aroma Bakery by Al Fatah. I learnt how to apply food laws and regulations in the food industry. My key responsibilities were to ensure quality by inspection, sensory evaluation, implementation of food safety protocols, lab testing, and record keeping.</p>
+      </div>
+      <div class="col">
+        <h3>PGS</h3>
+        <p>As an academic head I bring extensive curriculum leadership, academic planning, student performance tracking, DLPs, and academic policy making. I learned how to be passionate and responsible.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Innovative Creations</h2>
+    <h3>Lavender Almond Cookies</h3>
+    <p>I made cookies with therapeutic importance that can provide relief from migraine, stress, and anxiety. These cookies were made of lavender, almonds, and the basic ingredients of cookies.</p>
+  </section>
+
+  <section id="achievements">
+    <h2>My Achievements</h2>
+    <div class="achievements-columns">
+      <div class="col">
+        <ul>
+          <li>Won cash prize for food innovation competition</li>
+          <li>World Food Day 2022 – UMT Lahore</li>
+          <li>2nd National Conference on Emerging Trends in Food Science and Nutrition 2024 – UMT Lahore</li>
+          <li>World Food Day 2023 – UMT Lahore</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Aroma Bakery</h3>
+        <p>I worked as an intern at Aroma Bakery by Al Fatah. I learnt how to apply food laws and regulations in the food industry. My key responsibilities were to ensure quality by inspection, sensory evaluation, implementation of food safety protocols, lab testing, and record keeping.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">Abeeha Saleem</div>
+    <div class="footer-menu">
+      <a href="#intro">Intro</a>
+      <a href="#about">About</a>
+      <a href="#interests">Interests</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Creations</a>
+      <a href="#achievements">Achievements</a>
+    </div>
+    <div class="footer-info">
+      <p>Thank you for visiting my portfolio. I aim to contribute meaningfully to the food science industry with a blend of technical skill and creative passion.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
