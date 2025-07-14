@@ -267,6 +267,24 @@ img {
 section#interests {
     background: #f8f1ec;
 }
+.achievements-columns ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+}
+.achievements-columns ul li:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 28px;
+    background: url(assets/bullet.png) no-repeat;
+    background-size: contain;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: auto;
+}
 
 @media(max-width: 768px) {
   header {
