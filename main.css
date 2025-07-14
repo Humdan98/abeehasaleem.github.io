@@ -31,10 +31,11 @@ header {
   z-index: 1000;
 }
 
-header .logo {
+header .logo, header .logo a {
   font-family: var(--font-heading);
   font-size: 3rem;
   color: var(--color-light);
+  text-decoration: none;
 }
 
 nav a {
