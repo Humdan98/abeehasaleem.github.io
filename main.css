@@ -210,6 +210,11 @@ body h2:after {
 #about h2:after {
     margin: 0;
 }
+footer p, footer  a {
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0 0 15px;
+}
 
 @media(max-width: 768px) {
   header {
