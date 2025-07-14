@@ -152,7 +152,8 @@ footer {
 
 .footer-logo {
   font-family: var(--font-heading);
-  font-size: 1.5rem;
+  font-size: 3rem;
+  color: #deaf84;
 }
 
 .footer-menu a {
