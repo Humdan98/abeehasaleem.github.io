@@ -235,6 +235,33 @@ h3 {
     color: #97704f;
     font-family: 'Pacifico';
 }
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+#experience img {
+    height: 365px;
+    object-fit: contain;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#experience .col-content-wrap {
+    text-align: center;
+    padding: 0 20px 30px;
+}
+#experience .three-cols .col {
+    padding: 0;
+    box-shadow: 0 0 10px 0px #f0f0f0;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+#experience .three-cols .col:hover {
+    transform: scale(1.05);
+    transition: all 0.3s linear;
+}
 
 @media(max-width: 768px) {
   header {
