@@ -150,10 +150,13 @@ footer {
   gap: 2rem;
 }
 
-.footer-logo {
+.footer-logo, .footer-logo a {
   font-family: var(--font-heading);
   font-size: 3rem;
   color: #deaf84;
+}
+.footer-logo a {
+  text-decoration: none;
 }
 
 .footer-menu a {
