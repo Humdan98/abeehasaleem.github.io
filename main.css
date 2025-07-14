@@ -262,6 +262,9 @@ img {
     transform: scale(1.05);
     transition: all 0.3s linear;
 }
+section#interests {
+    background: #f8f1ec;
+}
 
 @media(max-width: 768px) {
   header {
