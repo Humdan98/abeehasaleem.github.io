@@ -270,18 +270,18 @@ section#interests {
 .achievements-columns ul li {
     list-style: none;
     margin-bottom: 15px;
-    padding-left: 30px;
+    padding-left: 35px;
     position: relative;
 }
 .achievements-columns ul li:after {
     content: "";
     position: absolute;
-    width: 20px;
-    height: 28px;
+    width: 26px;
+    height: 32px;
     background: url(assets/bullet.png) no-repeat;
     background-size: contain;
     left: 0;
-    top: 0;
+    top: 2px;
     right: auto;
     bottom: auto;
 }
