@@ -294,7 +294,8 @@ section#projects:before {
     position: absolute;
     left: 7%;
     background-size: contain;
-    top: 80px;
+    bottom: -80px;
+    top: auto;
 }
 section#projects {
     position: relative;
