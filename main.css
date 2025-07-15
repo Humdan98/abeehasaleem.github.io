@@ -281,7 +281,7 @@ section#interests {
     background: url(assets/bullet.png) no-repeat;
     background-size: contain;
     left: 0;
-    top: 2px;
+    top: 5px;
     right: auto;
     bottom: auto;
 }
