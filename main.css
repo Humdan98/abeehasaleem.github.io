@@ -177,7 +177,7 @@ body p:not(:last-child) {
 }
 body {
     font-size: 20px;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 .is-center {
     text-align: center;
