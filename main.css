@@ -51,7 +51,7 @@ nav a:hover {
 }
 
 section {
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
 }
 
 .banner {
@@ -285,7 +285,33 @@ section#interests {
     right: auto;
     bottom: auto;
 }
-
+section#projects:before {
+    background: url(assets/pngtree-commercia.png) no-repeat;
+    width: 100%;
+    height: 200px;
+    max-width: 200px;
+    content: "";
+    position: absolute;
+    left: 7%;
+    background-size: contain;
+    top: 80px;
+}
+section#projects {
+    position: relative;
+    background-color: #f8f1ec;
+}
+section#projects:after {
+    width: 100%;
+    height: 200px;
+    max-width: 200px;
+    content: "";
+    position: absolute;
+    left: auto;
+    right: 5%;
+    background: url(assets/pngtree-commercia.png) no-repeat;
+    background-size: contain;
+    top: -80px;
+}
 @media(max-width: 768px) {
   header {
     flex-direction: column;
