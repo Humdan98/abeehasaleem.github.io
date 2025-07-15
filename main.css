@@ -292,7 +292,7 @@ section#projects:before {
     max-width: 200px;
     content: "";
     position: absolute;
-    left: 7%;
+    left: 5%;
     background-size: contain;
     bottom: -80px;
     top: auto;
