@@ -330,6 +330,23 @@ section#projects:after {
     border-image: linear-gradient(45deg, #97704f, #deaf84, #deaf84);
     border-image-slice: 1;
 }
+.footer-logo .social-links a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer h4 {
+    font-family: 'Pacifico';
+    color: #deaf84;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
 @media(max-width: 768px) {
   header {
     flex-direction: column;
