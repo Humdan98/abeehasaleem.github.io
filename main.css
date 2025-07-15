@@ -313,6 +313,23 @@ section#projects:after {
     background-size: contain;
     top: -80px;
 }
+.achievements-columns .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.achievements-columns .row li {
+    font-weight: bold;
+}
+.achievements-columns .row img {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4), 
+        inset 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 20px solid #deaf84;
+    border-image: linear-gradient(45deg, #97704f, #deaf84, #deaf84);
+    border-image-slice: 1;
+}
 @media(max-width: 768px) {
   header {
     flex-direction: column;
