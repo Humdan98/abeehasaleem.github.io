@@ -147,12 +147,13 @@ footer {
 footer:after {
     content: "";
     position: absolute;
-    width: 200px;
-    height: 200px;
-    background: url(assets/food-icon.png);
+    width: 260px;
+    height: 180px;
+    background: url(assets/food-basket.png);
     background-size: contain;
-    right: 50px;
+    right: 20px;
     bottom: 20px;
+    background-repeat: no-repeat;
 }
 footer {
   background: var(--color-dark);
