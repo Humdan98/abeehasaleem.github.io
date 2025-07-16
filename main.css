@@ -90,6 +90,11 @@ section {
     top: auto;
     bottom: -120px;
 }
+#learnings .row .col:hover {
+    transform: rotate(360deg);
+    transition: transform 0.7s;
+    cursor: pointer;
+}
 
 .banner-content {
   position: relative;
