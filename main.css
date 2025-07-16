@@ -379,8 +379,8 @@ blockquote {
     font-weight: 500;
     font-size: 28px;
 }
-section#learnings {
-    padding-top: 0;
+section#achievements {
+    padding-bottom: 0;
 }
 #learnings .row {
     display: flex;
