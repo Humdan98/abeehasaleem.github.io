@@ -413,6 +413,15 @@ section#achievements {
     background: #deaf84;
     color: #fff;
 }
+#interests .row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.about-columns.container {
+    flex-direction: row-reverse;
+}
 
 @media(max-width: 768px) {
   header {
