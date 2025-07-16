@@ -366,6 +366,14 @@ footer h4 {
 .footer-contact a:hover {
     opacity: 0.8;
 }
+h4 {
+    font-weight: 500;
+    font-family: 'Pacifico';
+    color: #97704f;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
 @media(max-width: 768px) {
   header {
     flex-direction: column;
