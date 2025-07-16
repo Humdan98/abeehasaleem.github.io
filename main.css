@@ -95,7 +95,9 @@ section {
     transition: transform 0.7s;
     cursor: pointer;
 }
-
+.footer-menu a:hover {
+    color: #deaf80;
+}
 .banner-content {
   position: relative;
   text-align: center;
