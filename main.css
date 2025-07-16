@@ -71,6 +71,25 @@ section {
   inset: 0;
   /* background: rgba(47, 27, 18, 0.6); */
 }
+#interests {
+    position: relative;
+}
+#interests:before, #interests:after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: url(assets/food-icon.png) no-repeat;
+    background-size: contain;
+    left: 5%;
+    top: -120px;
+}
+#interests:after {
+    left: auto;
+    right: 5%;
+    top: auto;
+    bottom: -120px;
+}
 
 .banner-content {
   position: relative;
