@@ -388,6 +388,8 @@ section#achievements {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 #learnings .row .col {
     text-align: center;
