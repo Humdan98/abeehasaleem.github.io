@@ -517,7 +517,6 @@ section#achievements {
   }
 }
 
-
 @media(max-width: 768px) {
   header {
     flex-direction: column;
@@ -534,3 +533,98 @@ section#achievements {
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 700) {
+  .footer-contact {
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+  }
+  .footer-info, .footer-menu, .footer-logo {
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+  }
+  footer p, footer a {
+      font-size: 16px;
+  }
+  .footer-logo .social-links a {
+      justify-content: center;
+  }
+  #learnings .row .col {
+      width: calc(50% - 10px);
+      min-width: 150px;
+      max-width: 150px;
+  }
+  section {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  body h2 {
+      font-size: 32px;
+  }
+  .achievements-columns .row {
+      flex-wrap: wrap;
+  }
+  section#projects:before {
+      max-width: 100px;
+      bottom: -150px;
+  }
+  section#projects:after {
+      top: -50px;
+      max-width: 100px;
+  }
+  #interests:before, #interests:after {
+      max-width: 100px;
+  }
+  #interests:after {
+      bottom: -190px;
+  }
+  #interests:before {
+      top: -50px;
+      left: 0;
+  }
+  .about-columns, .experience-columns, .achievements-columns {
+      row-gap: 2rem;
+  }
+  #about h2 {
+      margin: 0 auto 20px;
+  }
+  blockquote {
+      font-size: 22px;
+      text-align: center;
+  }
+  nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 2rem;
+  }
+  nav a {
+      margin: 0;
+  }
+  header {
+      padding: 20px 20px;
+  }
+  .banner-content h1 {
+      font-size: 34px;
+  }
+  .banner-content p {
+      font-size: 20px;
+  }
+  .achievements-columns ul li {
+      font-size: 16px;
+  }
+  body {
+      font-size: 16px;
+  }
+  section {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+  }
+  h3 {
+      font-size: 28px;
+      line-height: 1.3;
+  }
+}
+
+
