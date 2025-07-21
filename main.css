@@ -500,6 +500,21 @@ section#achievements {
       display: flex;
       justify-content: center;
   }
+  #interests:before, #interests:after {
+      z-index: 0;
+  }
+  #interests .container {
+      position: relative;
+      z-index: 99;
+  }
+
+  #interests:after {
+      right: 0%;
+  }
+  #interests::before {
+      left: 0;
+      top: -100px;
+  }
 }
 
 
