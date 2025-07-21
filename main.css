@@ -597,7 +597,7 @@ section#achievements {
   nav {
       flex-wrap: wrap;
       justify-content: center;
-      column-gap: 2rem;
+      column-gap: 1.3rem;
   }
   nav a {
       margin: 0;
