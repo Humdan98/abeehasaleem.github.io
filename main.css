@@ -472,6 +472,36 @@ section#achievements {
       font-size: 18px;
   }
 }
+@media screen and (max-width: 900px) {
+  .footer-logo {
+      width: calc(50% - 1rem);
+      max-width: calc(50% - 1rem);
+  }
+  .footer-menu {
+      width: calc(50% - 1rem);
+      max-width: calc(50% - 1rem);
+  }
+  footer:after {
+      opacity: 0.3;
+      bottom: -10px;
+      right: 0;
+  }
+  nav a:first-child {
+      margin: 0;
+  }
+  nav {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .logo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+
 
 @media(max-width: 768px) {
   header {
