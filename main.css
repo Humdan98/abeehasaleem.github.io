@@ -628,6 +628,13 @@ section#achievements {
   .banner {
       height: 80vh;
   }
+  .achievements-columns .row.row2 {
+      flex-direction: column-reverse;
+  }
+  .projects-row {
+      flex-direction: column-reverse;
+      row-gap: 2rem;
+  }
 }
 
 
