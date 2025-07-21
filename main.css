@@ -635,6 +635,9 @@ section#achievements {
       flex-direction: column-reverse;
       row-gap: 2rem;
   }
+  header .logo, header .logo a {
+    line-height: 1;
+  }
 }
 
 
